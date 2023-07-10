@@ -112,7 +112,7 @@ header {
     justify-content: space-around;
     font-size: 50px;
     padding: 50px 240px;
-    height: 550px;
+    height: 750px;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 margin-top: 80px;
@@ -127,4 +127,8 @@ align-items: center;
 .part2-des{
     color: gray;
     font-size: 25px;
+}
+.part2-img{
+    width: 500px;
+    height: 700px;
 }
