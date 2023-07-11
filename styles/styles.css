@@ -152,25 +152,27 @@ justify-content: center;
 
 }
 
+/*instagram-section  */
 .insta-title {
     color: #272727;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 100px;
 }
 
 .insta-des {
     margin-top: 20px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 28px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .instagram-images {
-    margin-top: 45px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
-    margin: 40px 180px;
-
+gap: 30px;
+padding: 30px 200px;
+cursor: pointer;
 }
 
 .deals-container {
