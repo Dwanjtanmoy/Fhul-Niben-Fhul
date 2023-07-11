@@ -1,3 +1,5 @@
+/* primary part */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,22 +9,6 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
-header {
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-    padding: 50px 240px;
-    height: 750px;
-    background: rgba(229, 84, 115, 0.10);
-}
-
-.header-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -39,19 +25,36 @@ header {
     cursor: pointer;
 }
 
+/* header section */
+
+header {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 50px 100px;
+    height: 580px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
 .header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+}
 
+/* header-featured section */
 .featured-info {
-    height: 500px;
+    height: 400px;
 }
 
 .featured {
 
-    margin-top: 150px;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -60,7 +63,7 @@ header {
 }
 
 .featured-description {
-    margin-top: 40px;
+    margin-top: 30px;
     color: gray;
 }
 
@@ -83,13 +86,16 @@ header {
     text-decoration-line: underline;
 }
 
+
+/* Delivery-plans section */
 .plans {
     display: flex;
-
+justify-content: center;
     margin-top: 50px;
-    border-radius: 8px;
+    width: 900px;
+    height: 300px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 100px;
+    padding: 60px;
     margin: 0px 350px;
 }
 
@@ -101,25 +107,28 @@ header {
 
 .item-title {
     color: rgba(39, 39, 39, 0.80);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 35px;
     margin: 20px 0px 10px 0px;
 }
-
+/* Second-banner section */
 .part2 {
     display: flex;
     justify-content: space-around;
-    font-size: 50px;
-    padding: 50px 240px;
-    height: 750px;
+    font-size: 30px;
+    padding: 50px 100px;
+    height: 650px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 80px;
     align-items: center;
+    
+}
+.part2-title{
+    margin-bottom: 30px;
 }
 
 .part2-info {
-    text-align: center;
+     text-align: center;
 }
 
 .a {
@@ -128,12 +137,13 @@ header {
 
 .part2-des {
     color: gray;
-    font-size: 25px;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .part2-img {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 600px;
 }
 
 .insta-information {
@@ -154,10 +164,26 @@ header {
     font-size: 28px;
     font-weight: 400;
 }
+
 .instagram-images {
     margin-top: 45px;
     display: flex;
     justify-content: space-around;
     margin: 40px 180px;
 
+}
+
+.deals-container {
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url("../Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 2500px;
+    height: 449px;
+    margin: 40px 230px;
+
+}
+
+.Deals {
+    text-align: center;
 }
