@@ -218,5 +218,30 @@ font-weight: 400;
 
 .subscribe{
     display: flex;
-/* justify-content: space-around; */
 gap: 50px;}
+
+
+
+.footer-section{
+    background: #111010;
+    color: #FFFFFF;
+    height: 300px;
+    align-items: center;
+    text-align:center;
+    margin-top: 70px;
+    padding: 100px 5px 5px 30px;
+    
+}
+.footer-title{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.footer-description{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.footer-finishing{
+    font-size: 12px;
+    margin-top: 20px;
+}
