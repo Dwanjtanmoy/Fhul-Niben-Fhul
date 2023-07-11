@@ -173,19 +173,50 @@ justify-content: center;
 gap: 30px;
 padding: 30px 200px;
 cursor: pointer;
+margin-bottom: 39px;
 }
 
 .deals-container {
-    /* align-items: center; */
-    justify-content: center;
+   
     background-image: url("../Rectangle\ 9.png");
     background-repeat: no-repeat;
-    width: 2500px;
-    height: 449px;
-    margin: 40px 230px;
+    justify-content: center;
+margin-left: 50px;}
+    
+    
 
-}
-
-.Deals {
+.Deals, .subscribe{
     text-align: center;
+    width: 1000px;
+    height: 400px;
+    padding: 30px 30px 30px 200px;
+
 }
+.deals-info{
+    margin-top: 30px;
+margin-bottom: 20px;
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.deals-details{
+    margin-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+font-weight: 400;
+}
+.contact input{
+    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border:0;
+    width: 85%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 43px;
+}
+
+.subscribe{
+    display: flex;
+/* justify-content: space-around; */
+gap: 50px;}
